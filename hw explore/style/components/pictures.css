@@ -1,0 +1,39 @@
+.pictures__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:292px;
+
+}
+
+.paintings_h2 h2{
+    max-width: 481px;
+    max-height: 50px;
+    top: 292px;
+    margin-bottom: 56px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+
+}
+.paintings_view{
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color:  #FB8F1D;;
+}
+.paintings_img{
+    width: 100%;
+}
+.paintings_img img{
+    width: 261px;
+    height: 337px;
+    top: 145px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
