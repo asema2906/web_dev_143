@@ -1,29 +1,35 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-.body{
+
+/* Не правильно указали селекторы! */
+/* . перед тэгами не пишется */
+/* Самая главная ошибка */
+
+
+body{
     margin: 0px;
     padding: 0px;
 
 }
 
-.h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
     margin: 0px;
     padding: 0px;
 }
 
-.p{
+p {
     margin: 0px;
     padding: 0px;
 }
 
-.ul{
+ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-.a{
+a{
     text-decoration: none;
 }
 
@@ -39,7 +45,8 @@ url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&fam
 }
 
 .container{
-    max-width: 1219 px;
+    /* Вот тут px слитно пишется */
+    max-width: 1219px;
     margin: 0 auto;
 }
 
