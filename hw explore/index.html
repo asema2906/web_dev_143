@@ -14,6 +14,8 @@
          <img id="elem2" src="imgs/element2 (1).png">
          <img id="elem3" src="imgs/element (1).png">
       </div>
+
+      <!-- Общие замечания: Элементы по БЭМ пишется имя-блока__имя-элемента -->
       <div class="content">
          <header class="header">
             <div class="container">
@@ -37,7 +39,10 @@
 
          <section class="travel">
             <div class="container">
+
+               <!-- Будьте осторожны с структурой flex -->
                <div class="travel_inner">
+                  
                   <div class="travel_content">
                      <div class="travel_title">
                         <h1>Explore and <br> Travel</h1>
@@ -63,12 +68,13 @@
                            </div>
                               <li class="travel_item travel_item_explore">Explore</li>
                         </ul>
-                     </div> 
-
-                     <div class="travel_img">
-                        <img src="imgs/thousand-01 1.png">
-                     </div>                           
+                     </div>                          
                   </div>
+
+                  <div class="travel_img">
+                     <img src="imgs/thousand-01 1.png">
+                  </div>  
+
                </div>
             </div>
          </section>
@@ -87,6 +93,8 @@
                         trip, but now, they can also let Lonely Planet Experiences <br>
                         lead the way</p>
                         <button>Learn more</button>
+                     <!-- Забыли закрывающийся тэг </div> -->
+                     </div>
                   </div>
                </div>
             </div>
@@ -94,7 +102,10 @@
 
          <section class="pictures">
             <div class="container">
+
                <div class="pictures_inner">
+                  
+                  <!-- Тут струкрута чуть не верная, paintings_img лучше создать как элемент pictures -->
                   <div class="paintings">
                      <div class="paintings_h2">
                         <h2>Featured destinations</h2>
@@ -103,12 +114,13 @@
                         <h4>View all</h4>
                         <img src="imgs/Vector 1.png">
                      </div>
-                     <div class="paintings_img">
-                        <img src="imgs/Raja ampat (1).png">
-                        <img src="imgs/Fanjingshan (1).png">
-                        <img src="imgs/Vevey (1).png">
-                        <img src="imgs/Skadar (1).png">
-                     </div>
+                  </div>
+
+                  <div class="pictures__img">
+                     <img src="imgs/Raja ampat (1).png">
+                     <img src="imgs/Fanjingshan (1).png">
+                     <img src="imgs/Vevey (1).png">
+                     <img src="imgs/Skadar (1).png">
                   </div>
               </div>
 
