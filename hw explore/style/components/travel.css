@@ -3,12 +3,14 @@
     justify-content: space-between;
     align-items: center;
 
+    /* Добавляем верхний отступ */
+    margin-top: 80px;
 }
 
 .travel_img{
     max-width: 687px;
     max-height: 654px;
-    margin-left: 808px;
+    /* margin-left: 808px; */
 
 }
 .travel_img img{
