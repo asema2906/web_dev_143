@@ -1,47 +1,46 @@
-.header_inner{
+.header__inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 43px;
 }
-.header_logo{
+.header__logo{
     width: 41px;
     height: 41px;
 }
-.header_list{
+.header__list{
     display: flex;
     align-items: center;
-    margin-left: 515px;
 }
-.list_item{
+.list__item{
     margin-right: 35px;
-    font-family: Inter;
+    font-family: 'Inter';
 
     color: #B8BECD;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
-.list_item:hover{
+.list__item:hover{
     color: #202336;
 
 }
-.list_item_btn{
+.list__item__btn{
     width: 132px;
     line-height: 44px;
     text-align: center;
     border-radius: 8px;
 }
-.list_item_login{
+.list__item__login{
     border: 1px solid #FB8F1D;
 }
-.list_item_Register{
+.list__item__Register{
     background: #FB8F1D;
     border: 1px solid #FB8F1D;
 }
-.list_item_Register {
+.list__item__Register {
     color: #FFFFFF
 }
-.list_item_login {
+.list__item__login {
     color: #FB8F1D;
 }

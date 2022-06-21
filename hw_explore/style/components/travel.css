@@ -1,24 +1,23 @@
-.travel_inner{
+.travel__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 
 }
 
-.travel_img{
+.travel__img{
     max-width: 687px;
     max-height: 654px;
-    margin-left: 808px;
-
 }
-.travel_img img{
+.travel__img img{
     object-fit: scale-down;
     
 }
-.travel_title{
+.travel__title{
     width: 356px;
 }
-.travel_title h1{
+.travel__title h1{
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -26,7 +25,7 @@
     line-height: 80px;
     color: #202336;
 }
-.travel_title p{
+.travel__title p{
     position: relative;
     margin-top: 74px;
     padding-bottom: 21px;
@@ -36,7 +35,7 @@
     line-height: 27px;
     color: #202336;
 }
-.travel_title p::after{
+.travel__title p::after{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -48,18 +47,18 @@
     border-radius: 4px; 
 }
 
-.travel_options{
+.travel__options{
     width: 470px;
     margin-bottom: 16px;
     margin-top: 48px;
 }
 
-.travel_list{
+.travel__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.travel_item{
+.travel__item{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -78,7 +77,7 @@
     margin-bottom: 35px;
 
 }
-.travel_item_explore{
+.travel__item__explore{
     display: flex;
     align-items: center;
     
